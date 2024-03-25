@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Public Sans',sans-serif;
+    font: 400;
+}
+
+/* .logo {
+    width: 45px;
+    height: 42px;
+    display: flex; 
+    top: 40px;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+h1 {
+    font-weight: 800;
+    margin-left: 10px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+a { 
+    padding: 10px ;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    height: 18px;
+    color: #000000;
+}
+nav a:hover {
+    background-color: #5BC241;
+    color: #ffffff;
+}
+nav a {  
+    transition: 0.3s ease-in-out;
+}
+.btn {
+    width: 127px;
+    height: 40px; 
+    background-color: #5BC241; 
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+@media(max-width: 800px) {
+
+      header {
+        
+        text-align: center;
+        flex-direction: column;
+      }
+
+    nav {
+    flex-direction: column;
+    width: 100%;
+   
+    text-align: center;
+  }
+
+ a {
+    margin-top: 30px;
+    align-items: center;
+    padding:10px;
+    display: block;
+  }
+} */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-left: 5px;
+    font-weight: 800;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+li a:hover {
+    background-color: #5BC241;
+    color: #ffffff;
+}
+
+li a {
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+   
+}
+a { 
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn {
+    background-color: #5BC241;
+    border-radius: 1rem;
+    color: #ffffff;
+    margin-left: 2rem;
+    padding: 10px 20px;
+}
+
+@media ( max-width: 650px) {
+   .header {
+     flex-direction: column; 
+   }
+
+   h1 {
+    font-size: 4rem;
+   }
+
+   .menu {
+    flex-direction: column;
+    margin-top: 50px;
+   }
+
+   li {
+    padding: 33px 0;
+   }
+
+   li:last-child {
+    margin-top: 20px;
+   }
+
+   a {
+    font-size: 4rem;
+    padding: 17px 40px;
+   }
+
+.btn {
+    font-size: 1.8rem;
+    padding: 15px 23px;
+}
+}
