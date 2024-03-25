@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Public Sansi', sans-serif;
+}
+
+section {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pintura {
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.informacoes {
+    position: absolute;
+    color: #ffffff;
+    bottom: 40px;
+    left: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+@media (max-width: 1440px) {
+    .pictures {
+        max-width: 900px;
+        margin: 30px 0;
+    }
+}
